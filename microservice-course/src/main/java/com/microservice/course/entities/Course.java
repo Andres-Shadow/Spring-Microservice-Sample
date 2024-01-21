@@ -9,6 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString(onlyExplicitlyIncluded = true)
+@Getter
+@Setter
 public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
