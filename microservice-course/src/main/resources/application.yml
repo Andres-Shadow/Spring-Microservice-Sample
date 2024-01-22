@@ -3,7 +3,7 @@ spring:
     name: msvc-course
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:mysql://localhost:5432/coursedb
+    url: jdbc:postgresql://localhost:5432/coursedb
     username: root
     password: andres_1
   config:
@@ -12,7 +12,7 @@ spring:
     hibernate:
       ddl-auto: create
     database: postgresql
-    database-platform: org.hibernate.dialect.postgreSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
 eureka:
   instance:

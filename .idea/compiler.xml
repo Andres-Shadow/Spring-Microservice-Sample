@@ -16,6 +16,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="17" />
+      <module name="microservice-course (1)" target="17" />
+      <module name="microservice-course (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,8 @@
       <module name="demo" options="-parameters" />
       <module name="microservice-config" options="-parameters" />
       <module name="microservice-course" options="-parameters" />
+      <module name="microservice-course (1)" options="-parameters" />
+      <module name="microservice-course (2)" options="-parameters" />
       <module name="microservice-eureka" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
       <module name="microservice-student" options="-parameters" />

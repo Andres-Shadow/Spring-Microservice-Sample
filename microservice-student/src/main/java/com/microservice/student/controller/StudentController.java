@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class StudentController {
     @Autowired
     private StudentServiceImpl studentService;
+
     @PostMapping("/create")
     @ResponseStatus(HttpStatus.CREATED)
     public void save(@RequestBody Student student) {

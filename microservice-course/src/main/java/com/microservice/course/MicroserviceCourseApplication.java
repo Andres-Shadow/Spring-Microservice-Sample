@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class MicroserviceCourseApplication {
+public class MicroserviceCourseApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MicroserviceCourseApplication.class, args);
