@@ -1,24 +1,6 @@
 spring:
   application:
     name: msvc-student
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/studentdb?useSSL=false&serverTimezone=UTC
-    username: root
-    password: andres_1
   config:
     import: optional:configserver:http://localhost:8888
-  jpa:
-    hibernate:
-      ddl-auto: create
-    database: mysql
-    database-platform: org.hibernate.dialect.MySQL8Dialect
-    show-sql: true
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
-server:
-  port: 8090
+
